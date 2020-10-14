@@ -33,6 +33,7 @@
     flex-direction: column;
 
     line-height: 24px;
+    margin-bottom: 50px;
 }
 
 #page-map aside footer strong {
@@ -64,4 +65,70 @@
 
 #page-map .create-orphanage:hover {
     background: #17d6eb;
+}
+
+#page-map .home-button {
+    position: absolute;
+    left: 80px;
+    bottom: 40px;
+
+    border: 0;
+
+    width: 48px;
+    height: 48px;
+    background: #12AFCB;
+    border-radius: 16px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+}
+
+#page-map .home-button:hover {
+    background: #17d6eb;
+}
+
+#page-map .map-popup .leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+}
+
+#page-map .map-popup .leaflet-popup-content {
+    margin: 8px 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page-map .map-popup .leaflet-popup-content p {
+    width: 270px;
+    color: #0089a5;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#page-map .map-popup .leaflet-popup-content a {
+    width: 40px;
+    height: 40px;
+    background: #15c3d6;
+    box-shadow: 17.2868px 27.6589px 41.4884px rgba(23, 142, 166, 0.16);
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+#page-map .map-popup .leaflet-popup-content a:hover {
+    background: #17d6eb;
+}
+
+#page-map .map-popup .leaflet-popup-tip-container {
+    display: none;
 }
